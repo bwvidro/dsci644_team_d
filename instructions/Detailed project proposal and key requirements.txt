@@ -1,0 +1,30 @@
+Deliverables:
+	Requirement analysis 
+		Epics/Initiatives
+	Specs
+		Defined in user stories
+	Define an architecture
+		Distributed (Keras?)
+	What is being reworked in the model
+	How do we validate the modeling output?
+		N fold validation
+			Train and test on known data
+	Document the process
+		Trello - stories/epics
+	Manage process step by step
+		Trello - stories/epics
+	Communicate the results step by step
+		Trello stories with Acceptance criteria that have to be met when considered "Done"
+		Project plan document with checkoff points
+			Or we can have Ep
+	Deliver the product in a presentation
+		PPT and run model in azure ML Studio
+		
+		
+Starting 
+	Where's the data?
+	Where's the model?
+		
+	
+	
+	

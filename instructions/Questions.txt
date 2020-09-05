@@ -1,1 +1,7 @@
+When are we free to attend presentations
+	Nov. 23 we present
+	Nov. 18-20, 24 we attend to evaluate presentations
+
 Where's the model? The link pointed to in the instructions goes to a whole slew of neural networks.
+What documentation tools should we use for sharing to documents
+	Word? RTF?
