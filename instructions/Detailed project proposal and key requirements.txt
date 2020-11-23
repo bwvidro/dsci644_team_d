@@ -1,6 +1,17 @@
 Deliverables:
 	Requirement analysis 
 		Epics/Initiatives
+			Analyze Preprocess Text - anything else to clean up data? Regex Expresion
+			Do we need to include additional column (Would date affect reviews?)
+			Review the Latenet Dirichlet Allocation (Anything can be done here?)
+			Review Multiclass Neural Network
+				Number of hidden nodes
+				Initial weighting diameter
+				Type of normalizer
+			Review the model training
+				Where can we add hyperparameters that we can adjust via cross validation training
+
+				
 	Specs
 		Defined in user stories
 	Define an architecture
@@ -22,8 +33,7 @@ Deliverables:
 		
 		
 Starting 
-	Where's the data?
-	Where's the model?
+
 		
 	
 	
