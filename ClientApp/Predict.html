@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+Review Text: <input type="text" id="reviewText" value="">
+<button class="Predict" id="Predict">Predict</button>
+
+<script>
+    $(document).ready(function(){
+        $("#Predict").click(function(){
+            var reviewText = document.getElementById("reviewText").value;
+            //alert(reviewText);
+            var api_key="TN59tYi2fz/rI93YwmiTRVjThRGBGjQ+vnL+Gf3sKlv34kmvLzPske0SsR23bRiOQHpyMdgWKvUNaWTHwvTClA==";
+            var body = JSON.stringify({
+                  "Inputs": {
+                    "input1": {
+                      "ColumnNames": [
+                        "reviewText"
+                      ],
+                      "Values": [
+                        [
+                          reviewText
+                        ]
+                      ]
+                    }
+                  },
+                  "GlobalParameters": {}
+                });
+            var headers = {"Access-Control-Allow-Origin": "*", "Content-Type":"application/json", "Authorization":("Bearer "+ api_key), "Accept": "*/*",
+}
+            alert(JSON.stringify(headers));
+            //alert(body);
+            $.ajax({
+            xhrFields: {
+                withCredentials: true
+            },
+              url: "https://ussouthcentral.services.azureml.net/workspaces/7654e77b4a8c4df19d3774dad4e5bd99/services/e984c0fdf53b4379880a967ac949fd7e/execute?api-version=2.0&details=true",
+              crossDomain: true,
+              type: "POST",
+              datatype: "jsonp",
+              headers: headers,
+              data: body,
+             error: function(xhr, error){
+                    console.debug(xhr); console.debug(error);
+                    alert(error);
+             },              
+              success: function (response) {
+                alert(response);
+              }   
+            }).done(function() {
+                alert("done");
+            });
+        });
+    });
+</script>
+</body>
+</html>
