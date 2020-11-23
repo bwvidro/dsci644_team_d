@@ -1,5 +1,6 @@
 # **Software Engineering for Data Science (DSCI-644) Project in Microsoft Azure**
 
+## **Project Objective** 
 The goal of this project is to re-design and re-train the model to give better performance.
 
 **Architecture** contains the proposed model for the client in Microsoft Azure
