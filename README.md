@@ -6,3 +6,5 @@ The goal of this project is to re-design and re-train the model to give better p
 
 **Feature Analysis** contains different models implemented on Python
 
+**ClientApp** contains a Python implementation for an application that allows a user to enter a review as user input to the azure model which will predict whether that review is Positive or Negative.
+
