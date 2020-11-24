@@ -25,11 +25,14 @@ Simple API for prediction, the input is review text only, the output is a predic
 
 #### Usage
 
-Enter review in the '''REVIEWTEXT''' Box
+Enter review in the REVIEWTEXT Box
 
 ![API](https://github.com/bwvidro/dsci644_team_d/blob/master/Results/API.JPG)
 
 Output:
+
+Details of response API in Json - showing 67% change of the review being negative
+
 ![Output](https://github.com/bwvidro/dsci644_team_d/blob/master/Results/Output.JPG)
 
 
