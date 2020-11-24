@@ -11,12 +11,10 @@ Git Repository: https://github.com/bwvidro/dsci644_team_d
 
 Webpage: https://bwvidro.github.io/dsci644_team_d/
 
-The method we chose was able to
-
-    1) Grouped reviews into 2 categories (Positive and Negative) - any values below .5 were assumed Negative and any values about .5 were assumed Positive
-    2) Clean Data 
-        a) Remove Stop Words 
-    3) The final application allows a user to enter a review as user input and the model will predict whether that review is Positive or Negative.
+The method we chose was able to:
+1) Grouped reviews into 2 categories (Positive and Negative) - any values below .5 were assumed Negative and any values about .5 were assumed Positive
+2) Clean Data 
+3) The final application allows a user to enter a review as user input and the model will predict whether that review is Positive or Negative.
 
 ### Model Investigations:
 
