@@ -6,10 +6,13 @@ The goal of this project is to re-design and re-train the model to give better p
 We developed the model using Microsoft Azure ML Studio and tracked our overall progress of the project using Trello.  Other technologies utilized include PyCharm, Jupyter Notebooks, Python (Execute Custom Python Scripts inside of Azure), Git
 
 Trello board: https://trello.com/b/4XceHD7e/term-project
-Git Repository: https://github.com/bwvidro/dsci644_team_d 
+
+Git Repository: https://github.com/bwvidro/dsci644_team_d
+
 Webpage: https://bwvidro.github.io/dsci644_team_d/
 
-The method we chose:
+The method we chose was able to
+
     1) Grouped reviews into 2 categories (Positive and Negative) - any values below .5 were assumed Negative and any values about .5 were assumed Positive
     2) Clean Data 
         a) Remove Stop Words 
